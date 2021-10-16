@@ -8,9 +8,13 @@ public class Ejercicio3 {
         int numero;
         System.out.println("Ingrese un numero entero");
         numero = s.nextInt();
-        for(int i=1; i<=numero; i++){
-          System.out.print(i+" ");
+        int i=1;
+        while(i<=numero){
+          for(int j=1; j<=i; j++){
+            System.out.print(j);
+          }
+          System.out.println();
+          i++;
         }
-
     }   
 }
