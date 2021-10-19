@@ -1,7 +1,11 @@
 package EjerciciosComplementariosLevel2;
 
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class Ejercicio6 {
     public static void main(String[] args) {
+        HashSet<Empleado> empleado = new HashSet<>();
     }
 
     class Empleado {

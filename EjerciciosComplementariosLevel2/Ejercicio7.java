@@ -7,9 +7,9 @@ public class Ejercicio7 {
     public static void main(String args[]){
         ArrayList<String> array = new ArrayList<>();
         Scanner s = new Scanner(System.in);
-        System.out.println("Ingrese el primer numero: ");
+        System.out.println("Ingrese el primer numero (debe ser menor al siguiente numero):");
         int num1 = s.nextInt();
-        System.out.println("Ingrese el segundo numero (debe ser mayor al primero): ");
+        System.out.println("Ingrese el segundo numero (debe ser mayor al numero anterior): ");
         int num2 = s.nextInt();
 
         for (int i=num1; i<num2; i++) {
